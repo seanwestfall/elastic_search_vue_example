@@ -2,6 +2,10 @@
   <header>
     <title>Vue Example</title>
     <script src="https://unpkg.com/vue"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
@@ -17,8 +21,8 @@
                 <div class="input-group-btn">
                     <div class="btn-group" role="group">
                         <div class="dropdown dropdown-lg">
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
-                            <div class="dropdown-menu dropdown-menu-right" role="menu">
+                            <button type="button" class="btn btn-default dropdown-toggle" id="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                            <div class="dropdown-menu dropdown-menu-right" id="dropdown-menu" role="menu">
                                 <form class="form-horizontal" role="form">
                                   <div class="form-group">
                                     <label for="filter">Filter by</label>
